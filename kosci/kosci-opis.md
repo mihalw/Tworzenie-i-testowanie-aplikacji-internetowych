@@ -1,0 +1,18 @@
+Gra w kości
+
+Scenariusz działania:
+- tworzymy tablicę 5-elementową typu int o nazwie kosci (na wyniki każdej z pięciu kostek do gry)
+- W pętli for (5 razy, bo mamy 5 kostek):
+	- program losuje wartość każdej z pięciu kostek (użycie Random)
+	- wylosowana liczba jest przypisywana do kolejnych elementów tablicy
+- W pętli for (5 iteracji):
+	- program wyświetla wartość każdej kostki (po kolei każdy element tablicy)
+- W pętli for (dwukrotnie, bo takie są zasady gry):
+	- Program pyta ile kostek gracz chce rzucić ponownie
+	- Gracz wpisuje liczbę kostek do ponownego rzucenia
+	- W pętli for (tyle razy ile kostek mamy rzucić ponownie):
+		- program pyta o numer kostki do ponownego rzucenia
+		- użytkownik wpisuje numer kostki do ponownego rzucenia
+		- program losuje nową wartość dla wskazanej kostki
+	- W pętli for (5 iteracji):
+		- program wyświetla wartość każdej kostki (po kolei każdy element tablicy)
