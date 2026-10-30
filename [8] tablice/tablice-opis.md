@@ -2,7 +2,7 @@
   - tworzy 10-elementową tablicę typu int o nazwie liczby
   - tworzy zmienną sumaLiczb
   - dla każdego elementu w tablicy (za pomocą pętli):
-    - losuje wartość i przypisuje ją do elementu tablicy
+    - losuje wartość z zakresu 1-100 i przypisuje ją do elementu tablicy
     - wyświetla wylosowaną wartość
     - dodaje wylosowaną wartość do zmiennej suma liczb
   - wypisuje komunikat "Suma liczb wynosi <sumaLiczb>"  
